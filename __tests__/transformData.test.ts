@@ -1,5 +1,6 @@
-import { User } from "../interfaces/user";
-import { formatUserData } from "../utils/formatUserData";
+import { User } from "@/pages/interfaces/user";
+import { formatUserData } from "../pages/utils/formatUserData";
+import { describe, expect, it } from "@jest/globals";
 
 describe("formatUserData", () => {
   const mockUserTest: User[] = [
