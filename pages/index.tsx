@@ -1,5 +1,5 @@
+import { DepartmentStats } from "@/src/interfaces/user";
 import { useEffect, useState } from "react";
-import { DepartmentStats } from "./interfaces/user";
 
 export default function Home() {
   const [data, setData] = useState<Record<string, DepartmentStats> | null>(

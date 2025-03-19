@@ -1,6 +1,6 @@
+import { getUsers } from "@/src/lib/api";
+import { formatUserData } from "@/src/utils/formatUserData";
 import type { NextApiRequest, NextApiResponse } from "next";
-import { getUsers } from "../lib/api";
-import { formatUserData } from "../utils/formatUserData";
 
 export default async function handler(
   req: NextApiRequest,

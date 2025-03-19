@@ -1,5 +1,5 @@
-import { User } from "@/pages/interfaces/user";
-import { formatUserData } from "../pages/utils/formatUserData";
+import { User } from "@/src/interfaces/user";
+import { formatUserData } from "@/src/utils/formatUserData";
 import { describe, expect, it } from "@jest/globals";
 
 describe("formatUserData", () => {
